@@ -47,8 +47,8 @@ const QuotesApp = () => {
         <div className="container">
             <div className="quotes-app">
                 <h1 className="app-heading">Quote.</h1>
-                <i className="bx bxs-heart fav-icon" onClick={toggleFavorites}></i>
-
+                <i className="bx bxs-heart fav-icon" onClick={toggleFavorites}  title="Show Favorites" ></i>
+            
                 <div className="quote">
                     <i className="bx bxs-quote-alt-left left-quote"></i>
                     <p className="quote-text">{quote.text}</p>
